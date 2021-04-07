@@ -1,84 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
-    }
+}
 
 
 /*HEADER BAŞLANGIÇ BÖLÜMÜ*/
-header#genelheader
-{
+
+header#genelheader {
     width: 1349;
-    
     margin: auto;
-   
-   
 }
-div#headercontainer /* Ana Header Bölümü*/
+
+div#headercontainer
+/* Ana Header Bölümü*/
+
 {
     width: 1349px;
-    
     position: relative;
     margin: auto;
-    background-color:#ffffff;
-   
-
+    background-color: #ffffff;
 }
-div.header-top
-{
+
+div.header-top {
     width: 1349px;
     height: 20px;
-
-   
- }
- ul#headertop-right
- {
-     display: inline-block;
-     float: right;
-     list-style-type: none;
-     
- }
- ul#headertop-right li
- {
-     display: inline-block;
-     line-height: 10px;
-     margin-top: 10px;
-     margin-left: 20px;
-    
- }
-
-
-div.header-top  a
-{
-   
-    text-decoration: none;
-    font-family:Righteous;
-    color: #999999;
-    font-size: 15px;
-    opacity: 0.8;
-    
 }
-div#header-logo
-{
+
+ul#headertop-right {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+}
+
+ul#headertop-right li {
+    display: inline-block;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div.header-top a {
+    text-decoration: none;
+    font-family: Righteous;
+    color: #999999;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+div#header-logo {
     width: 155px;
     height: 70px;
     position: relative;
-    margin-top:20px;
+    margin-top: 20px;
     float: left;
     padding-left: 50px;
-    
 }
-div#header-arama
-{
+
+div#header-arama {
     width: 400px;
     height: 60px;
     position: relative;
     float: left;
     margin-left: 150px;
-   
 }
-div#header-arama div#arama-input input
-{
+
+div#header-arama div#arama-input input {
     width: 500px;
     height: 40px;
     border: 1px solid #999999;
@@ -88,361 +75,269 @@ div#header-arama div#arama-input input
     padding-left: 20px;
 }
 
-div#header-sag-icon
-{
+div#header-sag-icon {
     width: 350px;
     height: 70px;
     position: relative;
     float: right;
-        margin-top:50px;
-    
-    
+    margin-top: 50px;
 }
-div#header-sag-icon img
-{  
-   position: absolute;
-   margin-top: -30px;
-   padding-left: 20px;
-   
+
+div#header-sag-icon img {
+    position: absolute;
+    margin-top: -30px;
+    padding-left: 20px;
 }
-div#header-sag-icon a
-{
+
+div#header-sag-icon a {
     text-decoration: none;
     color: #999999;
     text-align: left;
-   padding-left: 5px;
-   
-   
+    padding-left: 5px;
 }
 
-div#navbar
-{
+div#navbar {
     width: 1349px;
     height: 50px;
-   margin: auto;
+    margin: auto;
     border-top: 0.5px solid #cfcfcf;
-    border-bottom: 0.5px solid #cfcfcf; 
-     
+    border-bottom: 0.5px solid #cfcfcf;
 }
 
-div#navbar ul#nav-liste li
-{
+div#navbar ul#nav-liste li {
     display: inline-block;
     position: relative;
-    
-    padding-top: 15px; 
+    padding-top: 15px;
 }
-div#navbar ul#nav-liste li a
-{
+
+div#navbar ul#nav-liste li a {
     text-decoration: none;
-    color:#333333;
+    color: #333333;
     font-family: sans-serif;
-    font-weight:bold; 
+    font-weight: bold;
     font-size: 16px;
     padding: 20px;
-     
-    }
-
-div#navbar ul#nav-liste li a:hover
-{
-    color:orangered;
- 
 }
 
-section#sectionbaslangic
-{
+div#navbar ul#nav-liste li a:hover {
+    color: orangered;
+}
+
+section#sectionbaslangic {
     width: 1349px;
     height: 600px;
     position: relative;
     margin-left: 75px;
-    
     margin-top: 10px;
-    
 }
-div#sol-section
-{
+
+div#sol-section {
     width: 1000px;
     height: 600px;
     position: relative;
-   
     float: left;
-   
-    
-    
 }
 
-div#sol1-banner
-{
+div#sol1-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-  
-}
-div#sol1-banner div#banner-text1
-{
-    width: 965px;
-   
-    position: relative;
-    margin:auto;
-    background:black;
-    color: wheat;
-    font-size: 20px;
-   
 }
 
-div#sol1-banner div#banner1-text1:hover
-{   
-    
-   
-    background-color: orangered;
-   
+div#sol1-banner div#banner-text1 {
+    width: 965px;
+    position: relative;
+    margin: auto;
+    background: black;
+    color: wheat;
+    font-size: 20px;
 }
-div#sol2-banner
-{
+
+div#sol1-banner div#banner1-text1:hover {
+    background-color: orangered;
+}
+
+div#sol2-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
 }
-div#sol2-banner div#banner-text2
-{
+
+div#sol2-banner div#banner-text2 {
     width: 965px;
-   
     position: relative;
-    margin:auto;
-    background:black;
+    margin: auto;
+    background: black;
     color: wheat;
     font-size: 20px;
-   
 }
 
-div#sol2-banner div#banner1-text2:hover
-{   
-    
-   
+div#sol2-banner div#banner1-text2:hover {
     background-color: orangered;
-   
 }
 
-div#sol3-banner
-{
+div#sol3-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
-}
-div#sol3-banner div#banner-text3
-{
-    width: 965px;
-   
-    position: relative;
-    margin:auto;
-    background:black;
-    color: wheat;
-    font-size: 20px;
-   
 }
 
-div#sol3-banner div#banner-text3:hover
-{   
-    
-   
-    background-color: orangered;
-   
+div#sol3-banner div#banner-text3 {
+    width: 965px;
+    position: relative;
+    margin: auto;
+    background: black;
+    color: wheat;
+    font-size: 20px;
 }
-div#sol4-banner
-{
+
+div#sol3-banner div#banner-text3:hover {
+    background-color: orangered;
+}
+
+div#sol4-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
-}
-div#sol4-banner div#banner-text4
-{
-    width: 965px;
-   
-    position: relative;
-    margin:auto;
-    background:black;
-    color: wheat;
-    font-size: 20px;
-   
 }
 
-div#sol4-banner div#banner-text4:hover
-{   
-    
-   
-    background-color: orangered;
-   
+div#sol4-banner div#banner-text4 {
+    width: 965px;
+    position: relative;
+    margin: auto;
+    background: black;
+    color: wheat;
+    font-size: 20px;
 }
-div#sol5-banner
-{
+
+div#sol4-banner div#banner-text4:hover {
+    background-color: orangered;
+}
+
+div#sol5-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
-}
-div#sol5-banner div#banner-text5
-{
-    width: 965px;
-   
-    position: relative;
-    margin:auto;
-    background:black;
-    color: wheat;
-    font-size: 20px;
-   
 }
 
-div#sol5-banner div#banner-text5:hover
-{   
-    
-   
-    background-color: orangered;
-   
+div#sol5-banner div#banner-text5 {
+    width: 965px;
+    position: relative;
+    margin: auto;
+    background: black;
+    color: wheat;
+    font-size: 20px;
 }
-div#sol6-banner
-{
+
+div#sol5-banner div#banner-text5:hover {
+    background-color: orangered;
+}
+
+div#sol6-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
-}
-div#sol6-banner div#banner-text6
-{
-    width: 965px;
-   
-    position: relative;
-    margin:auto;
-    background:black;
-    color: wheat;
-    font-size: 20px;
-   
 }
 
-div#sol6-banner div#banner-text6:hover
-{   
-    
-   
-    background-color: orangered;
-   
+div#sol6-banner div#banner-text6 {
+    width: 965px;
+    position: relative;
+    margin: auto;
+    background: black;
+    color: wheat;
+    font-size: 20px;
 }
-div#sol7-banner
-{
+
+div#sol6-banner div#banner-text6:hover {
+    background-color: orangered;
+}
+
+div#sol7-banner {
     width: 965px;
     height: 270px;
     position: relative;
-    margin:auto;
+    margin: auto;
     border: 1px solid #999999;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-  
 }
-div#sol7-banner div#banner-text7
-{
+
+div#sol7-banner div#banner-text7 {
     width: 965px;
-   
     position: relative;
-    margin:auto;
-    background:black;
+    margin: auto;
+    background: black;
     color: wheat;
     font-size: 20px;
-   
 }
 
-div#sol7-banner div#banner-text7:hover
-{   
-    
-   
+div#sol7-banner div#banner-text7:hover {
     background-color: orangered;
-   
 }
 
-
-
-
-
-
-
-
-div#sag-section
-{
+div#sag-section {
     width: 320px;
-    
     position: relative;
     float: right;
-   
-    
-    
 }
-div#sag-section div#sag1-banner
-{
+
+div#sag-section div#sag1-banner {
     width: 310px;
     position: relative;
     margin: auto;
-   
     display: flex;
     flex-direction: column;
 }
-div#sag-section div#sag1-banner img
-{
+
+div#sag-section div#sag1-banner img {
     margin-top: 50px;
     width: 310px;
     height: 304px;
 }
 
-div.orta-icerikler
-{
+div.orta-icerikler {
     width: 1349px;
     height: 600px;
-
     position: relative;
-    top:20px;
+    top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-items: center;
-    
-   
 }
-   
-   
 
-
-div.orta-icerikler img
-{  
+div.orta-icerikler img {
     width: 390px;
     height: 200px;
     border: 2px solid #333333;
